@@ -18,13 +18,18 @@ where $Z$ is drawn from a standard normal distribution via the inverse CDF. The 
 
 Python
 
-## Requirements
+Packages:
 
-Install dependencies using: pip install -r requirements.txt
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `scipy`
+- `yfinance`
 
-Clone the repository
-Install dependencies: pip install -r requirements.txt
-Open MonteCarlo_DifferentPaths.ipynb in Jupyter
-Set your desired ticker, start_date, and end_date in Cell 3
-Run all cells in order — the final plot displays all simulated price paths
+## How to Run
 
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Open `MonteCarlo_DifferentPaths.ipynb` in Jupyter
+4. Set your desired `ticker`, `start_date`, and `end_date` in Cell 3
+5. Run all cells in order — the final plot displays all simulated price paths
